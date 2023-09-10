@@ -137,10 +137,11 @@ public class NewJFrame extends javax.swing.JFrame {
         double N3 = Double.parseDouble(TXTN3.getText());
         double sum= N1+N2+N3;
         double res= sum/3.0;
+         
         if (res>=3) {
-         JOptionPane.showMessageDialog(null, "El estudiante aprovo: "+res);  
+         JOptionPane.showMessageDialog(null,String.format("El estudiante aprovo: "+"%.2f",res) );  
         }else{
-      JOptionPane.showMessageDialog(null,  "El estudiante no aprovo: "+res);}
+      JOptionPane.showMessageDialog(null,String.format("El estudiante no aprovo: "+"%.2f",res));}
     }//GEN-LAST:event_CALActionPerformed
 
     private void jToggleButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton2ActionPerformed
