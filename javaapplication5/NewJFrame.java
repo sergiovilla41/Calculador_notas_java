@@ -139,8 +139,8 @@ public class NewJFrame extends javax.swing.JFrame {
         double res= sum/3.0;
         if (res>=3) {
          JOptionPane.showMessageDialog(null, "El estudiante aprovo: "+res);  
-        }
-      JOptionPane.showMessageDialog(null,  "El estudiante no aprovo: "+res);
+        }else{
+      JOptionPane.showMessageDialog(null,  "El estudiante no aprovo: "+res);}
     }//GEN-LAST:event_CALActionPerformed
 
     private void jToggleButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton2ActionPerformed
